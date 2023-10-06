@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: blue;
+    height: 308px;
+    width: 100%;
+}
+header h1{
+    color: #FFFFFF;
+}
+.collage {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.collage img{
+    width: 463px;
+    height: 420px;
+}
+figure{
+    position: relative;
+    bottom: 100px;
+}
+figcaption{
+    height: 125px;
+    width: 443px;
+    border-radius: 12px;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    bottom: 140px;
+    left: 10px;
+}
+.different-figure {
+    position: relative;
+    bottom: 180px;
+}
+.different-figure img{
+    width: 563px;
+    height: 520px;
+}
+.different-figure figcaption{
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(5px);
+    position: relative;
+    bottom: 200px;
+    left: 60px;
+}
+.projects{
+    display: flex;
+}
+
+.partner-wrapper{
+    width: 50%;
+    text-align: center;
+}
+.partner-wrapper p{
+    width: 30%;
+    margin: auto;
+}
+.partner-wrapper p span{
+    color: blue;
+}
+.collage-wrapper{
+    width: 40%;
+}
